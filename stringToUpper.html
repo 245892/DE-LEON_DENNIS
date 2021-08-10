@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UpperCase</title>
+</head>
+<body>
+
+<p id="demo"></p>
+
+ 	<script>
+ 		var text = "TheQuickBrownFoxJumpsOverTheLazyDog";
+  function capitalize (text) 
+  
+  {
+    return  text.charAt(0).toUpperCase() + text.slice(1).toLowerCase(); //This will capitalize the first 
+                                                                        //letter in string
+   }
+   
+   document.getElementById("demo").innerHTML= capitalize(text);//This assigns the value to be printed
+    </script>
+</body>
+</html>
